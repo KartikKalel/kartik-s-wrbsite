@@ -16,7 +16,27 @@
         <a href="Services.html">Services</a>
         <a href="Contact.html">Contact</a>
 </div>
-    
+<div class="slider">
+    <img src="https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg" alt="Mountain" class="a" height="500px" width="500px" style="display: none;">
+    <img src="https://img.freepik.com/free-photo/beautiful-mountains-landscape_23-2150787850.jpg" alt="Mountain" class="a" height="500px" width="500px" style="display: none;"> 
+    <img src="https://png.pngtree.com/thumb_back/fh260/background/20230527/pngtree-8-best-free-mountain-background-images-4k-wallpapers-image_2670051.jpg" alt="Mountain" class="a" height="500px" width="500px" style="display: none;">
+    </div>
+    <script>
+        var slider=0;
+        sliders();
+
+        function sliders(){
+            var k;
+            var x=document.getElementsByClassName("a");
+            for(k=0;k<x.length;k++){
+                x[k].style.display="none";
+            }
+            slider++;
+            if(slider>x.length){slider=1;}
+            x[slider-1].style.display="block";
+            setTimeout(sliders,3000);
+        }
+    </script>
 <footer>
     &copy; Copyright all the rights are reserved by kartik
 </footer>
