@@ -24,14 +24,44 @@ body{
     color: black;
 }
 
+.art{
+    height: 500px;
+    width: 500px;
+    display: none;
+}
+
 footer{
     background-color: black;
     color: white;
     text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.card{
+    text-align: center;
+    width: 250px;
+}
+
+.card-img-top{
+    width:80%;
+    margin:0 auto;
+}
+
+.slide-img{
+    width: 100%;
+    height: 550px;
+}
+
+.card-img-top-1{
+    padding-left: 100px;
+    width: 300px;
+    padding-right: 100px;
+}
+
+.Resin-jhumka{
+    text-align: center;
+    padding-left: 100px;
+    padding: auto;
 }
